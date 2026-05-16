@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream: #FAF8F5;
+  --color-stone-950: #1C1917;
+  --color-gold: #92400E;
+  --color-gold-light: #D97706;
+  --color-divider: #E7E3DC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FAF8F5;
+  color: #1C1917;
+}
+
+.section-divider {
+  border-color: #E7E3DC;
+}
+
+.timeline-dot {
+  background: #92400E;
+}
+
+.accent-text {
+  color: #92400E;
+}
